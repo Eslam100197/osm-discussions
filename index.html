@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>OSM Discussions - الدول</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            display: flex;
+            gap: 30px; /* المسافة بين العمودين */
+        }
+
+        .column {
+            flex: 1; /* كل عمود ياخد نصف العرض */
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* المسافة بين الـ iframe داخل العمود */
+        }
+
+        iframe {
+            width: 100%;
+            height: 600px; /* ممكن تغير الارتفاع حسب الحاجة */
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>OSM Discussions - الدول</h1>
+
+    <div class="container">
+        <div class="column">
+		    <iframe src="https://resultmaps.neis-one.org/osm-discussions?c=Egypt"></iframe>
+            <iframe src="https://resultmaps.neis-one.org/osm-discussions?c=Iraq"></iframe>
+		    <iframe src="https://resultmaps.neis-one.org/osm-discussions?c=Libya"></iframe>
+		    <iframe src="https://resultmaps.neis-one.org/osm-discussions?c=Sudan"></iframe>
+			<iframe src="https://resultmaps.neis-one.org/osm-discussions?c=United%20Arab%20Emirates"></iframe>
+			<iframe src="https://resultmaps.neis-one.org/osm-discussions?c=Jordan"></iframe>
+		    <iframe src="https://resultmaps.neis-one.org/osm-discussions?c=Oman"></iframe>
+            <iframe src="https://resultmaps.neis-one.org/osm-discussions?c=Chad"></iframe>
+            <iframe src="https://resultmaps.neis-one.org/osm-discussions?c=Lebanon"></iframe>
+			<iframe src="https://resultmaps.neis-one.org/osm-discussions?c=Qatar"></iframe>
+        </div>
+
+        <div class="column">
+		    <iframe src="https://resultmaps.neis-one.org/osm-discussions?c=Morocco"></iframe>
+			<iframe src="https://resultmaps.neis-one.org/osm-discussions?c=Algeria"></iframe>
+            <iframe src="https://resultmaps.neis-one.org/osm-discussions?c=Syria"></iframe>
+            <iframe src="https://resultmaps.neis-one.org/osm-discussions?c=Kuwait"></iframe>
+            <iframe src="https://resultmaps.neis-one.org/osm-discussions?c=Mauritania"></iframe>
+			<iframe src="https://resultmaps.neis-one.org/osm-discussions?c=Tunisia"></iframe>
+			<iframe src="https://resultmaps.neis-one.org/osm-discussions?c=Djibouti"></iframe>
+			<iframe src="https://resultmaps.neis-one.org/osm-discussions?c=Western%20Sahara"></iframe>
+			<iframe src="https://resultmaps.neis-one.org/osm-discussions?c=Yemen"></iframe>
+			<iframe src="https://resultmaps.neis-one.org/osm-discussions?c=Bahrain"></iframe>
+        </div>
+    </div>
+</body>
+</html>
